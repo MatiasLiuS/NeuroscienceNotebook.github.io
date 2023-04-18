@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Podcast Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>My Podcast Website</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Episodes</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-    </header>
+{% extends "base.html" %}
+<!--------------------  CART SECTION STARTS HERE  --------------------->
+{% block content %}
     <main>
       <h2>Welcome to the Podcast</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lectus eu odio iaculis dapibus sed et risus. Sed id mauris eu sapien laoreet tempor in quis lacus. Vivamus vehicula, sem id ultricies congue, ex sapien placerat nibh, at auctor nunc metus eget felis.</p>
@@ -29,8 +14,4 @@
         </audio>
       </article>
     </main>
-    <footer>
-      <p>&copy; My Podcast Website 2023</p>
-    </footer>
-  </body>
-</html>
+    {% endblock%}
