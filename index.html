@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Website</title>
+    <meta charset="utf-8">
+    <title>My Podcast Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text.</p>
-    <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-    </ul>
-    <p>Here's an image:</p>
-    <img src="https://via.placeholder.com/150">
+    <header>
+      <h1>My Podcast Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Welcome to the Podcast</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lectus eu odio iaculis dapibus sed et risus. Sed id mauris eu sapien laoreet tempor in quis lacus. Vivamus vehicula, sem id ultricies congue, ex sapien placerat nibh, at auctor nunc metus eget felis.</p>
+      <h2>Latest Episode</h2>
+      <article>
+        <h3>Episode Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac lectus eu odio iaculis dapibus sed et risus. Sed id mauris eu sapien laoreet tempor in quis lacus. Vivamus vehicula, sem id ultricies congue, ex sapien placerat nibh, at auctor nunc metus eget felis.</p>
+        <audio controls>
+          <source src="episode.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; My Podcast Website 2023</p>
+    </footer>
   </body>
 </html>
-
