@@ -20,7 +20,15 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .col-md-6 {
+            transition: transform 0.3s ease;
+        }
     
+        .col-md-6:hover {
+            transform: translateY(-5px);
+        }
+      </style>
   </head>
   
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -30,90 +38,88 @@
 <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
 <body>
   
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-    <header class="site-navbar py-4 absolute transparent" role="banner">
-
-      <div class="container">
-        <div class="row align-items-center">
-          
-
-          <div class="col-3" data-aos="fade-down">
-            <h1><a href="index.html" class="text-white h2">The Neuroscience Notebook</a></h1>
+    <div class="site-wrap">
+  
+      <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
           </div>
-          <div class="col-9" data-aos="fade-down">
-            <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
-
-                
-
-                <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
-
-                <ul class="site-menu js-clone-nav d-none">
-                  <li class="has-children active">
-                    <a href="index.html">Home</a>
-                    <ul class="dropdown arrow-top">
-                    <!-- Send to an HTML of Home -->
-                      <li><a href="index.html">Home</a></li>
-                    <!-- Send to an HTML of everyone -->
-                      <li><a href="meet_the_team.html">Meet The Team</a></li>
-                    <!-- Send to an HTML of all podcasts -->
-                      <li><a href="all_podcasts.html">All Podcasts</a></li>
-                    </ul>
-                  </li>
-                  <li class="has-children">
-                    <!-- Send to an HTML of each podcast -->
-                    <a href="all_podcasts.html">Podcasts</a>
-                    <ul class="dropdown arrow-top">
-                      <ul>
-                        <li><a href="chapter_01.html">Chapter 01: Mindscape </a></li>
-                        <li><a href="chapter_02.html">Chapter 02: Neurotheology</a></li>
-                        <li><a href="chapter_03.html">Chapter 03: Weight Loss and Appetite in the Brain</a></li>
-                        <li><a href="chapter_04.html">Chapter 04: The Sobering Truth of Alcohol Use Disorders</a></li>
-                        <li><a href="chapter_05.html">Chapter 05: The Impact of Video Games on Cognition and Mental Health</a></li>
-                        <li><a href="chapter_06.html">Chapter 06: Proprioception: The Eyes of the Body</a></li>
-                        <li><a href="chapter_07.html">Chapter 07: Exercise on Cognition</a></li>
-                        <li><a href="chapter_08.html">Chapter 08: Get Your Head in the Game: Chronic Traumatic Encephalopathy in Contact-Sport Athletes</a></li>
-                        <li><a href="chapter_09.html">Chapter 09: Trauma & the Brain</a></li>
-                        <li><a href="chapter_10.html">Chapter 10: Painting Your Way to Wellness: The Neuroscience of Art Therapy</a></li>
-                        <li><a href="chapter_11.html">Chapter 11: Electroconvulsive Therapy</a></li>
-                        <li><a href="chapter_12.html">Chapter 12: The Hidden Malignancy of the Brain </a></li>
-                        <li><a href="chapter_13.html">Chapter 13: The Evolution of Psychosurgeries & Lobotomies</a></li>
-                        <li><a href="chapter_14.html">Chapter 14: Brain computer interface!!!</a></li>
-                        <li><a href="chapter_15.html">Chapter 15: The Mystery of Plasticity: Can You Rewire the Brain?</a></li>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+  
+  
+      <header class="site-navbar py-4 absolute transparent" role="banner">
+  
+        <div class="container">
+          <div class="row align-items-center">
+            
+  
+            <div class="col-3" data-aos="fade-down">
+              <h1><a href="index.html" class="text-white h2">The Neuroscience Notebook</a></h1>
+            </div>
+            <div class="col-9" data-aos="fade-down">
+              <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
+  
+                  
+  
+                  <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+  
+                  <ul class="site-menu js-clone-nav d-none">
+                    <li class="has-children active">
+                      <a href="index.html">Home</a>
+                      <ul class="dropdown arrow-top">
+                      <!-- Send to an HTML of Home -->
+                        <li><a href="index.html">Home</a></li>
+                      <!-- Send to an HTML of everyone -->
+                        <li><a href="meet_the_team.html">Meet The Team</a></li>
+                      <!-- Send to an HTML of all podcasts -->
+                        <li><a href="all_podcasts.html">All Podcasts</a></li>
                       </ul>
-                      
-                    </ul>
-                  </li>
-                  <!-- Send to an about HTML talking about the podcast and the class -->
-                  <li><a href="about.html">About</a></li>
-                  <!-- Send to an about HTML containing all of our details and info -->
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
-
+                    </li>
+                    <li class="has-children">
+                      <!-- Send to an HTML of each podcast -->
+                      <a href="all_podcasts.html">Podcasts</a>
+                      <ul class="dropdown arrow-top">
+                        <ul>
+                          <li><a href="chapter_01.html">Chapter 01: Mindscape </a></li>
+                          <li><a href="chapter_02.html">Chapter 02: Neurotheology</a></li>
+                          <li><a href="chapter_03.html">Chapter 03: Weight Loss and Appetite in the Brain</a></li>
+                          <li><a href="chapter_04.html">Chapter 04: The Sobering Truth of Alcohol Use Disorders</a></li>
+                          <li><a href="chapter_05.html">Chapter 05: The Impact of Video Games on Cognition and Mental Health</a></li>
+                          <li><a href="chapter_06.html">Chapter 06: Proprioception: The Eyes of the Body</a></li>
+                          <li><a href="chapter_07.html">Chapter 07: Exercise on Cognition</a></li>
+                          <li><a href="chapter_08.html">Chapter 08: Get Your Head in the Game: Chronic Traumatic Encephalopathy in Contact-Sport Athletes</a></li>
+                          <li><a href="chapter_09.html">Chapter 09: Trauma & the Brain</a></li>
+                          <li><a href="chapter_10.html">Chapter 10: Painting Your Way to Wellness: The Neuroscience of Art Therapy</a></li>
+                          <li><a href="chapter_11.html">Chapter 11: Electroconvulsive Therapy</a></li>
+                          <li><a href="chapter_12.html">Chapter 12: The Hidden Malignancy of the Brain </a></li>
+                          <li><a href="chapter_13.html">Chapter 13: The Evolution of Psychosurgeries & Lobotomies</a></li>
+                          <li><a href="chapter_14.html">Chapter 14: Brain computer interface!!!</a></li>
+                          <li><a href="chapter_15.html">Chapter 15: The Mystery of Plasticity: Can You Rewire the Brain?</a></li>
+                        </ul>
+                        
+                      </ul>
+                    </li>
+                    <!-- Send to an about HTML talking about the podcast and the class -->
+                    <li><a href="about.html">About</a></li>
+                  </ul>
+              </nav>
+  
+  
+            </div>
+  
           </div>
-
         </div>
-      </div>
-      
-    </header>
-<!---------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+        
+      </header>
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
 
 <!-- MAIN PODCAST START -->
 <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url(images/covers/chapter11_cover_square.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
